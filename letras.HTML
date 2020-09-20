@@ -1,0 +1,24 @@
+<html>
+<head>
+<title></title>
+<script>
+function contador(){
+numletras = document.formul.texto.value.length
+document.formul.numletras.value = numletras
+}
+</script>
+</head>
+<body>
+<form name="formul">
+<textarea name=texto cols=40 rows=3>
+Ingresa el texto
+</textarea>
+<br>
+<br>
+Número de letras ingresadas <input type="Text" name="numletras" size="4">
+<br>
+<br>
+<input type=button value="Cuenta caracteres" onclick="contador()">
+</form>
+</body>
+</html>
